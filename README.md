@@ -1,6 +1,6 @@
 <div align="center">
 
-# Hi, I'm Divyanshu Jaiswal 👋
+# Hi, I'm Divyanshu Jaiswal 
 
 **Data Analyst & Full-Stack Developer** · Siemens Technology & Services · Bengaluru
 
@@ -37,7 +37,6 @@ B.Tech CSE graduate (2026) currently interning at **Siemens Technology & Service
 
 ![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
-![Express](https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white)
 ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
 
@@ -46,7 +45,6 @@ B.Tech CSE graduate (2026) currently interning at **Siemens Technology & Service
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
 ![VS Code](https://img.shields.io/badge/VS%20Code-007ACC?style=flat-square&logo=visualstudiocode&logoColor=white)
 ![Azure](https://img.shields.io/badge/Azure-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)
-![Postman](https://img.shields.io/badge/Postman-FF6C37?style=flat-square&logo=postman&logoColor=white)
 
 ---
 
