@@ -66,7 +66,7 @@ B.Tech CSE graduate (2026) currently interning at **Siemens Technology & Service
 
 **Stack:** React.js · Node.js · Express.js · MongoDB  
 **Highlights:** Authentication system, property search with filters, listing management, responsive UI  
-**Links:** [📁 Repository](https://github.com/Divyanshu-Jaiswal-17/PGStay) · [🚀 Live Demo](https://pgstay-demo.vercel.app/)
+**Links:** [📁 Repository](https://github.com/Divyanshu-Jaiswal-17/PGStay) · [🚀 Live Demo](https://pgstay-nine.vercel.app/)
 
 ---
 
