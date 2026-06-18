@@ -1,5 +1,7 @@
 <div align="center">
 
+<img src="./avatar.svg" width="150" alt="Coding Avatar"/>
+
 # Hi, I'm Divyanshu Jaiswal 
 
 **Data Analyst & Full-Stack Developer** · Siemens Technology & Services · Bengaluru
@@ -63,7 +65,8 @@ B.Tech CSE graduate (2026) currently interning at **Siemens Technology & Service
 > Full-stack property listing and booking platform for PG accommodations
 
 **Stack:** React.js · Node.js · Express.js · MongoDB  
-**Highlights:** Authentication system, property search with filters, listing management, responsive UI
+**Highlights:** Authentication system, property search with filters, listing management, responsive UI  
+**Links:** [📁 Repository](https://github.com/Divyanshu-Jaiswal-17/PGStay) · [🚀 Live Demo](https://pgstay-demo.vercel.app/)
 
 ---
 
