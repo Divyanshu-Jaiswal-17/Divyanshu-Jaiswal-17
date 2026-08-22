@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 530 622" width="530" height="622">
+<defs>
+  <style>
+    @keyframes lineFadeIn {
+      0% { opacity: 0; transform: translateY(2px); }
+      100% { opacity: 1; transform: translateY(0); }
+    }
+    @keyframes cursorBlink {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0; }
+    }
+    .terminal-bg { fill: #0d1117; stroke: #30363d; stroke-width: 1.5; rx: 10px; ry: 10px; }
+    .terminal-header { fill: #161b22; rx: 10px; ry: 10px; }
+    .btn-red { fill: #ff5f56; }
+    .btn-yellow { fill: #ffbd2e; }
+    .btn-green { fill: #27c93f; }
+    .cmd-text { font-family: "Fira Code", "Courier New", Consolas, monospace; font-size: 11px; fill: #58a6ff; font-weight: 600; }
+    .user-text { font-family: "Fira Code", "Courier New", Consolas, monospace; font-size: 11px; fill: #3fb950; font-weight: bold; }
+    .ascii-line { font-family: "Fira Code", "Courier New", Consolas, monospace; font-size: 7.5px; fill: #c9d1d9; opacity: 0; animation: lineFadeIn 0.1s ease-out forwards; white-space: pre; }
+    .cursor { fill: #58a6ff; animation: cursorBlink 1s infinite; }
+  </style>
+</defs>
+<rect width="530" height="622" class="terminal-bg" />
+<path d="M 0 0 h 530 v 30 h -530 Z" class="terminal-header" />
+<circle cx="18" cy="15" r="5.5" class="btn-red" />
+<circle cx="34" cy="15" r="5.5" class="btn-yellow" />
+<circle cx="50" cy="15" r="5.5" class="btn-green" />
+<text x="265.0" y="19" text-anchor="middle" fill="#8b949e" font-family="Fira Code, monospace" font-size="11px">Divyanshu Jaiswal — ascii-art</text>
+<text x="20" y="45" class="cmd-text" style="animation: lineFadeIn 0.15s ease-out 0.10s forwards; opacity: 0;">divyanshu@github:~$ ./portrait.sh</text>
+<text x="20" y="58.2" class="ascii-line" style="animation-delay: 0.12s;">::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::</text>
+<text x="20" y="67.4" class="ascii-line" style="animation-delay: 0.15s;">::::::::::::::::::::::::::::::::::::::::::-++*#%@@@%%%#*+:::::::::::::::::::::::::::::::::::::::::::</text>
+<text x="20" y="76.6" class="ascii-line" style="animation-delay: 0.17s;">::::::::::::::::::::::::::::::::::::::-*%@@@@@@@@@@%%%%%%%%#=:::::::::::::::::::::::::::::::::::::::</text>
+<text x="20" y="85.8" class="ascii-line" style="animation-delay: 0.20s;">::::::::::::::::::::::::::::::::::::-#@@@@@@@@@@@%%@%@@%%%@@%%%#+-::::::::::::::::::::::::::::::::::</text>
+<text x="20" y="95.0" class="ascii-line" style="animation-delay: 0.22s;">::::::::::::::::::::::::::::::::::-%@@@@@@%%%@@@@@%@%%%@@%@@@@@%%%%%#-::::::::::::::::::::::::::::::</text>
+<text x="20" y="104.2" class="ascii-line" style="animation-delay: 0.25s;">::::::::::::::::::::::::::::::::*%%@@%@@@@@%%%@@@%%@@%%%@@%%%%@@@%%%%%#-::::::::::::::::::::::::::::</text>
+<text x="20" y="113.4" class="ascii-line" style="animation-delay: 0.27s;">::::::::::::::::::::::::::::::+%%%%@@@%%%%%@@@@@@@@@%@@%%@@%%%%@@@%%%%@*::::::::::::::::::::::::::::</text>
+<text x="20" y="122.6" class="ascii-line" style="animation-delay: 0.30s;">::::::::::::::::::::::::::::-%@%%@@@%@@@@@@@@@@@@@@%%%%%@@@@@@%@@@@@@@@%::::::::::::::::::::::::::::</text>
+<text x="20" y="131.8" class="ascii-line" style="animation-delay: 0.33s;">:::::::::::::::::::::::::::-%@@%@%@@@@@@@@@@@@%%@%@%%@@@@@@@@@@@@@@@@@@%::::::::::::::::::::::::::::</text>
+<text x="20" y="141.0" class="ascii-line" style="animation-delay: 0.35s;">:::::::::::::::::::::::::::#@%%@%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*-:::::::::::::::::::::::::::</text>
+<text x="20" y="150.2" class="ascii-line" style="animation-delay: 0.38s;">::::::::::::::::::::::::::-@@%@@@@@@@@@@@%%@@@@@@@%%%%%@@@@@@@@@@@@@@@@%+:::::::::::::::::::::::::::</text>
+<text x="20" y="159.4" class="ascii-line" style="animation-delay: 0.40s;">::::::::::::::::::::::::::=@@%@@@@@@@@@@@%##**####*+++*+**#%%%%%@%%%%@@@%*::::::::::::::::::::::::::</text>
+<text x="20" y="168.6" class="ascii-line" style="animation-delay: 0.43s;">::::::::::::::::::::::::::=@%%@@@@@@@@@%#*+++++++=======---=+##%%%%@@@@@%#::::::::::::::::::::::::::</text>
+<text x="20" y="177.8" class="ascii-line" style="animation-delay: 0.45s;">:::::::::::::::::::::::::::%@@@@@@@@@%#**+===============---==+*#%@@@%@@@#::::::::::::::::::::::::::</text>
+<text x="20" y="187.0" class="ascii-line" style="animation-delay: 0.48s;">::::::::::::::::::::::::::::%@@@@@@@@%#*++==========--------===++#@@@@@@%=::::::::::::::::::::::::::</text>
+<text x="20" y="196.2" class="ascii-line" style="animation-delay: 0.50s;">::::::::::::::::::::::::::::=@@@@@@@%%#*+=======-------------==++#@@@@@@#:::::::::::::::::::::::::::</text>
+<text x="20" y="205.4" class="ascii-line" style="animation-delay: 0.53s;">:::::::::::::::::::::::::::::#@@@@@%##**++=====--------:------=++*%@@@@%=:::::::::::::::::::::::::::</text>
+<text x="20" y="214.6" class="ascii-line" style="animation-delay: 0.55s;">:::::::::::::::::::::::::::::+@@@@%*##%%@@@@%#*+=----===+**#####*+*@@%@#::::::::::::::::::::::::::::</text>
+<text x="20" y="223.8" class="ascii-line" style="animation-delay: 0.58s;">::::::::::::::::::::::::::::::%@@@**#*++++**###**++==+++****=--==++%@@%-::::::::::::::::::::::::::::</text>
+<text x="20" y="233.0" class="ascii-line" style="animation-delay: 0.60s;">::::::::::::::::::::::::::::::=@@%+*###*###*++#%%*+--=+**###*+++==+*@@#:::::::::::::::::::::::::::::</text>
+<text x="20" y="242.2" class="ascii-line" style="animation-delay: 0.63s;">::::::::::::::::::::::::::::*#*#%#+*##%**%%+=*##%*=--=+**+*@%++*+===%#+=-:::::::::::::::::::::::::::</text>
+<text x="20" y="251.4" class="ascii-line" style="animation-delay: 0.65s;">::::::::::::::::::::::::::::%%###*+++****++++++**+=--===+++=--======+====:::::::::::::::::::::::::::</text>
+<text x="20" y="260.6" class="ascii-line" style="animation-delay: 0.68s;">::::::::::::::::::::::::::::#%##%*++++=========+*+--:=---=----------+===-:::::::::::::::::::::::::::</text>
+<text x="20" y="269.8" class="ascii-line" style="animation-delay: 0.70s;">:::::::::::::::::::::::::::::*#%%*+++=-------=++++--:----::--:::----++==::::::::::::::::::::::::::::</text>
+<text x="20" y="279.0" class="ascii-line" style="animation-delay: 0.73s;">::::::::::::::::::::::::::::::*###*++==-----+*===+=--------:::::---=++=-::::::::::::::::::::::::::::</text>
+<text x="20" y="288.2" class="ascii-line" style="animation-delay: 0.75s;">::::::::::::::::::::::::::::::-+*#***+====--+***#%*+=+++=----:----==*=-:::::::::::::::::::::::::::::</text>
+<text x="20" y="297.4" class="ascii-line" style="animation-delay: 0.78s;">:::::::::::::::::::::::::::::::=+###**+++======+#**+===-----=---===+*--:::::::::::::::::::::::::::::</text>
+<text x="20" y="306.6" class="ascii-line" style="animation-delay: 0.80s;">::::::::::::::::::::::::::::::::==%###**++==+**##*++***+=----====+++*=-:::::::::::::::::::::::::::::</text>
+<text x="20" y="315.8" class="ascii-line" style="animation-delay: 0.83s;">::::::::::::::::::::::::::::::::::*####*++*##**#***++++===++====+++*-:::::::::::::::::::::::::::::::</text>
+<text x="20" y="325.0" class="ascii-line" style="animation-delay: 0.85s;">::::::::::::::::::::::::::::::::::-#####*****##*+====--=+****===++*+::::::::::::::::::::::::::::::::</text>
+<text x="20" y="334.2" class="ascii-line" style="animation-delay: 0.88s;">:::::::::::::::::::::::::::::::::::-%####*++++++++===------===++++*-::::::::::::::::::::::::::::::::</text>
+<text x="20" y="343.4" class="ascii-line" style="animation-delay: 0.90s;">::::::::::::::::::::::::::::::::::::-%%#%#*++++++*+*++==-====++++*-:::::::::::::::::::::::::::::::::</text>
+<text x="20" y="352.6" class="ascii-line" style="animation-delay: 0.93s;">:::::::::::::::::::::::::::::::::::::*%%%%%#+++=====------==++++*-::::::::::::::::::::::::::::::::::</text>
+<text x="20" y="361.8" class="ascii-line" style="animation-delay: 0.95s;">::::::::::::::::::::::::::::::::::::+##%@%%%#**+++++===-===+++*##-::::::::::::::::::::::::::::::::::</text>
+<text x="20" y="371.0" class="ascii-line" style="animation-delay: 0.98s;">::::::::::::::::::::::::::::::::::-%@###%@@@%%%%%#####**++**##++%@=:::::::::::::::::::::::::::::::::</text>
+<text x="20" y="380.2" class="ascii-line" style="animation-delay: 1.00s;">:::::::::::::::::::::::::::::::+@@@@@####%%@@@@@@@@@@@@%%%%#+==+@@%#=:::::::::::::::::::::::::::::::</text>
+<text x="20" y="389.4" class="ascii-line" style="animation-delay: 1.03s;">:::::::::::::::::::::::::::-#@@@@@@@@######%%%%%@%%%%#*#**+====*@%%%@%%%#-::::::::::::::::::::::::::</text>
+<text x="20" y="398.6" class="ascii-line" style="animation-delay: 1.05s;">:::::::::::::::::::::::-+#%%@@@@@@@@@%#****#######**+**+++====+%@@%%%%@@%@@%#=::::::::::::::::::::::</text>
+<text x="20" y="407.8" class="ascii-line" style="animation-delay: 1.08s;">:::::::::::::::::::+#%%%%%%@@@@@@%%@@@#***++**#****++++++=====*@@@%%%%%@@%%@@@@@#+-:::::::::::::::::</text>
+<text x="20" y="417.0" class="ascii-line" style="animation-delay: 1.10s;">::::::::::::::=*%%%%%%%%%%@%%%@@@%%@@@%#**++++**++++=========+@@@@%%%%%@@@%@@@@%@@@@@*-:::::::::::::</text>
+<text x="20" y="426.2" class="ascii-line" style="animation-delay: 1.12s;">::::::::::=%%%%%%%%%%%%%@@%%@@@@@%%@@%##***++++*++==========+%@@@@@%%@@@@@@@@@@@@@@@@@@@@*::::::::::</text>
+<text x="20" y="435.4" class="ascii-line" style="animation-delay: 1.15s;">:::::::+%%%%%%%%%%%%%@%%%%@@@@@@@@@@@%%****++++++++========+*@@@@@@%%@@%@@@@@@@@@@@@@@@@@@@@#-::::::</text>
+<text x="20" y="444.6" class="ascii-line" style="animation-delay: 1.17s;">::::-*%%%%%%%%%%%%%%@%%%@@@%@@%%@@@%@@@#****++++++========+*@@@@@@@%@@@@@%@@@@@@@@@@@@@@@@@@@@@#-:::</text>
+<text x="20" y="453.8" class="ascii-line" style="animation-delay: 1.20s;">:+%@@@@%%%%%%@@@@@@@%%%@@@@@@@@%%@@%@%@@#+*+++============+%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%=:</text>
+<text x="20" y="463.0" class="ascii-line" style="animation-delay: 1.22s;">%%%@%@%@@@%%@%@@@%@%%%@@%@@@@@@@@@@@@@@@@#+++====-----====+%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%@@*</text>
+<text x="20" y="472.2" class="ascii-line" style="animation-delay: 1.25s;">%@%%%%@%%@%%@%%@%@@%%%@@@%%@@@@@@@@@@%%%@@%++==---------=+%@@@@@@@%%@@@%@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
+<text x="20" y="481.4" class="ascii-line" style="animation-delay: 1.27s;">%%@%%%%%%%%@@%%%@@%%%%@@%%%%@%%@@@@@@@@@@@@@%=---------==#@@%@@@@%@@@@@%%@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
+<text x="20" y="490.6" class="ascii-line" style="animation-delay: 1.30s;">%%%%%%%@%%%@@%%%@%%%%%@@@%%%%%%%%@@@%%@@%%@@%%*-------==#@@@@%#%@@@@@@@%%@@@@%@@@@@@@@@@@@@@@@@@@@@@</text>
+<text x="20" y="499.8" class="ascii-line" style="animation-delay: 1.32s;">%%%@%@%%@%%@%%%@%%%%%@%@%%%@%%%%%%@@@%@@@@@@%%%#-----=+#%@@@#*%@@@@@@@@%%%@@%%@@@@@@@@@@@@@@@@@@@@@@</text>
+<text x="20" y="509.0" class="ascii-line" style="animation-delay: 1.35s;">@%%%@@@@@%%@%%%%%%%%@%%@%%%@%%%%%%%@@@%@@@@@@@@%%+--=+#@%@###%@@@@@%@@@%%%@@%%@@@@%@@@@%%@%@@@@@@@@@</text>
+<text x="20" y="518.2" class="ascii-line" style="animation-delay: 1.37s;">@@@%@@@@@@@%%%%%%%@@%%%@%%%%%%%%%%%%@@%%@@@@@@@@@@#=+%@@@#**%%@@@@@%@@@%%%@@%@@@@@@@@%%%%%%@@@@@@@@@</text>
+<text x="20" y="527.4" class="ascii-line" style="animation-delay: 1.40s;">%@@@%@@@@@@%%%@@%%@%%%%@%%@@%%%%%%%%%@@%@@@@%%@@@@@@@@@@@**#%%@@@@%%%@@@%%@@%@@@@%%@@%%@@@@@@@@@@@@@</text>
+<text x="20" y="536.6" class="ascii-line" style="animation-delay: 1.42s;">%%%@@%@@@@@@@@@@%%@%%%@@%%%%%%%%%%%%%%@@#@@@%%%%@@@@@%%@**#%%%@@@%%%%@@@%%@@%%@%%%%@@%@@@@@%@@@@%%@@</text>
+<text x="20" y="545.8" class="ascii-line" style="animation-delay: 1.45s;">%%%%@@%@@@@@@@@@%@@%%%@%%%%%%%%%%%%%%%@@#%@@%%%%%@@#*%@%**%@%%%%%%%%%@@@%%@%%%%%%%%@@@@@@@@@@@@@@@@%</text>
+<text x="20" y="555.0" class="ascii-line" style="animation-delay: 1.47s;">%%%%%@@@@@@@@@@@%%%%%%@%%%%%%%%%%%%%%%%@@*#@@%%%@@@#*%%#*#%@%%%%%%%%%%@@%%@%%%%%%%@@@@@@@@@@@@@@@@@@</text>
+<text x="20" y="564.2" class="ascii-line" style="animation-delay: 1.50s;">@%%%%%%@@@@@@@@@@@@@@@@%%%@%%%%%%%%%%%%%@#*#@%%%@@%%%%#**%%%%%%%%%%%%%%@@%%%%%%%%@@@@@@@@@@@@@@@@@@@</text>
+<text x="20" y="573.4" class="ascii-line" style="animation-delay: 1.52s;">@@%%%%%%@@@@@@@@@@@@@@%%@@@%%%%%%%%%%%%%@@**#@%%@@@%%#**#%%%%%%%%%%%%%%%@@%%%%%%%%@@@@@@@@@@@@@@@@@@</text>
+<text x="20" y="582.6" class="ascii-line" style="animation-delay: 1.55s;">@@@%%%%%%%@@@@@@@@@@@@@@@@%%%%%%%%%%%%%%%@#**%@%%@%%%**#@@@%%%%%%%%%%%%%@@%%%%%%%%%@@@@@@@@@@@@@@@%@</text>
+<text x="20" y="591.8" class="ascii-line" style="animation-delay: 1.57s;">@@@@%%%%%%%@@@@@@@@@@@@@@@%@@%%%%%%%%%%%%%@#**@%@@@@#*#%%@%%@%%%%%%%%%%%%@@%%%%%%%@@@@@@@@@@@@@@@@@@</text>
+<text x="20" y="607.0" class="user-text" style="animation: lineFadeIn 0.15s ease-out 1.60s forwards; opacity: 0;">[ identity: Divyanshu Jaiswal ]</text>
+<rect x="195" y="597.0" width="7" height="11" class="cursor" />
+</svg>
